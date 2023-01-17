@@ -3,6 +3,9 @@ kind: Location
 metadata:
   name: org-data
   description: A collection of all Backstage POC entities, except users, groups
+  links:
+    - url: http://localhost:3000/catalog/default/location/org-datahttp://localhost:3000/catalog?filters%5Bkind%5D=domain&filters%5Buser%5D=all
+      title: Domains
 spec:
   type: url
   targets:
