@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: root
+  name: org-data
   description: A collection of all Backstage POC entities, except users, groups
 spec:
   type: url
   targets:
-    - https://github.com/chirag-shah-integrella/backstage-poc-yaml/blob/main/catalog-info.yaml
+    - ./domains.yaml
