@@ -1,9 +1,10 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: digital-glossary-service
   description: Description for digital-glossary-service
+  annotations:
+    github.com/project-slug: TwigWorld/digital-glossary-service
 spec:
   type: service
   lifecycle: production
