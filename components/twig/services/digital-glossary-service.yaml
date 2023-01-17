@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: digital-glossary-service
   description: Description for digital-glossary-service
-  annotations:
-    github.com/project-slug: chirag-shah-integrella/backstage-poc-yaml
+  # annotations:
+  #   github.com/project-slug: chirag-shah-integrella/backstage-poc-yaml
 spec:
   type: service
   lifecycle: production
