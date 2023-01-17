@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: digital-glossary-service
+  description: Description for digital-glossary-service
+spec:
+  type: service
+  lifecycle: production
+  owner: group:guests
+  system: twig-middle-school
+  dependsOn:
+    - resource:default/twig-rr-dg

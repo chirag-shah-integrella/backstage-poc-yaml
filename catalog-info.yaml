@@ -12,3 +12,4 @@ spec:
     - ./domains.yaml
     - ./systems.yaml
     - ./resources.yaml
+    - ./components.yaml

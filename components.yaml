@@ -1,0 +1,9 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-components
+  description: A collection of all components(service, website, library) Integrella work upon.
+spec:
+  targets:
+    - ./components/twig/services/digital-glossary-service.yaml
