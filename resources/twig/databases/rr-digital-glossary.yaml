@@ -7,6 +7,8 @@ metadata:
   description: Read replica information for digital-glossary-service
   tags:
     - twig
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: database
   owner: group:guests
