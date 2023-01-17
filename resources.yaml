@@ -1,0 +1,8 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-resources
+spec:
+  targets:
+    - ./resources/twig/databases/rr-digital-glossary.yaml

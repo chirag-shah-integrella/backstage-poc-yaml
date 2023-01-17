@@ -8,3 +8,4 @@ spec:
   targets:
     - ./domains.yaml
     - ./systems.yaml
+    - ./resources.yaml
