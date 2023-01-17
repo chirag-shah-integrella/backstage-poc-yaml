@@ -3,7 +3,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: twig-rr-dg
+  title: "Read Replica - Science Glossary"
   description: Read replica information for digital-glossary-service
+  tags:
+    - twig
 spec:
   type: database
   owner: group:guests

@@ -3,6 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: all-resources
+  description: A collection of all resources Integrella has.
 spec:
   targets:
     - ./resources/twig/databases/rr-digital-glossary.yaml
