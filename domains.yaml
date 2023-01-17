@@ -1,9 +1,10 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: all-domains
   description: A collection of all domains Integrella work upon.
+  links:
+
 spec:
   targets:
     - ./domains/twig.yaml

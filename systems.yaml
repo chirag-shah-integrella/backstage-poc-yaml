@@ -1,0 +1,9 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-systems
+  description: A collection of all systems.
+spec:
+  targets:
+    - ./systems/twig-ms.yaml
