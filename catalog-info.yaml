@@ -10,6 +10,6 @@ spec:
   type: url
   targets:
     - ./domains.yaml
-    - ./systems.yaml
-    - ./resources.yaml
+    # - ./systems.yaml
+    # - ./resources.yaml
     # - ./components.yaml
